@@ -1,3 +1,8 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   background-color: #1F2937;
   padding: 5px 100px 50px;
@@ -122,6 +127,7 @@ display: flex;
   align-items: center;
   flex-direction: column;
   padding: 100px;
+  max-width: 100%;
 
 }
 
@@ -130,9 +136,16 @@ display: flex;
   font-weight: 200;
   color: #1F2937;
   font-style: italic;
+  margin: 0;
 }
 
 .quote__span {
   font-weight: 900;
-  margin-left: 100px;
+  align-self: flex-end;
+  
+}
+
+.quote__container {
+  display: flex;
+  flex-direction: column;
 }
